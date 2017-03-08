@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+ </head>
+ <body>
+<canvas id="cv" width="600" height="400" style="border:1px solid #f00;"></canvas>
+<script>
+ var t=document.getElementById("cv")
+ var ctx=t.getContext("2d")
+ctx.fillStyle="#f00";
+ctx.globalAlpha="0.2"//opacity 0-1
+ ctx.fillRect(50,50,200,100)
+ctx.strokeStyle="#0f0"
+ ctx.strokeRect(260,50,200,100)
+ ctx.clearRect(150,45,200,150)
+
+
+</script>
+ </body>
+</html>
